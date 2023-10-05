@@ -19,7 +19,7 @@ public class Libro extends Base {
     @Column(name = "Fecha")
     private Integer fecha;
     @Column(name = "Genero")
-    private String calle;
+    private String genero;
     @Column(name = "Paginas")
     private Integer paginas;
 

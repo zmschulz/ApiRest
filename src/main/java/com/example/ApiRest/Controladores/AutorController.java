@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "Apitest.con/Autor")
+@RequestMapping(path = "Apirest.com/Autor")
 public class AutorController extends BaseControllerImpl<Autor, AutorServiceImpl> {
 }
